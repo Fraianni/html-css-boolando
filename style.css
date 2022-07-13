@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    padding: 20px;
+    justify-content: space-around;
+    background-color: #ff6900;
+    color: white;
+}
+
+#bool-logo {
+    width: 100px;
+}
+
+.logo {}
+
+.person {
+    color: white;
+
+}
+
+.cards {
+    justify-content: space-between;
+}
+
+.container {
+    background-color: white;
+    height: 700px;
+    position: relative;
+    margin: 20px 20px;
+
+}
+
+.card {
+    height: 600px;
+    width: 400px;
+    flex-shrink: 0;
+    background-color: gray;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.labels {
+    justify-content: start;
+    position: relative;
+}
+
+.red-label {
+    background-color: red;
+    padding: 5px 5px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+}
+
+.green-label {
+    background-color: #008000;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+    color: white;
+}
+
+.green-label-wo-red {
+    background-color: #008000;
+    padding: 5px 5px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+}
+
+.red-prize {
+    color: red;
+}
+
+.old-prize {
+    text-decoration: line-through;
+}
+
+.levis-shirt {
+    background-image: url('img/1.webp');
+}
+
+.card.levis-shirt:hover {
+    background-image: url('img/1b.webp');
+}
+
+
+
+.guess-tee {
+    background-image: url('img/2.webp');
+}
+
+.card.guess-tee:hover {
+    background-image: url('img/2b.webp');
+}
+
+.pastello {
+    background-image: url('img/3.webp');
+}
+
+.card.pastello:hover {
+    background-image: url('img/3b.webp');
+}
+
+.levis-shirt2 {
+    background-image: url('img/4.webp');
+}
+
+.card.levis-shirt2:hover {
+    background-image: url('img/4b.webp');
+}
+
+.maya-deluxe {
+    background-image: url('img/5.webp');
+}
+
+.card.maya-deluxe:hover {
+    background-image: url('img/5b.webp');
+}
+
+.esprit {
+    background-image: url('img/6.webp');
+}
+
+.card.esprit:hover {
+    background-image: url('img/6b.webp');
+}
+
+.text {
+    position: absolute;
+    bottom: 40px;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    position: relative;
+}
+
+.links {
+    padding-top: 10px;
+}
+
+.footer-dx {
+    position: absolute;
+    right: 20px;
+    top: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.social {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
