@@ -13,10 +13,14 @@ body {
 }
 
 header {
-    padding: 20px;
-    justify-content: space-around;
+    padding: 20px 30px;
+    justify-content: space-between;
     background-color: #ff6900;
     color: white;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 1;
 }
 
 #bool-logo {
@@ -38,8 +42,7 @@ header {
     background-color: white;
     height: 700px;
     position: relative;
-    margin: 20px 20px;
-
+    margin: 100px 20px 20px;
 }
 
 .card {
