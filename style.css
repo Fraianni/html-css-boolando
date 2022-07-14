@@ -27,7 +27,6 @@ header {
     width: 100px;
 }
 
-.logo {}
 
 .person {
     color: white;
@@ -63,6 +62,11 @@ header {
     top: 5px;
     right: 0px;
     text-align: center;
+}
+
+.heart:hover {
+    cursor: default;
+    color: red;
 }
 
 .labels {
