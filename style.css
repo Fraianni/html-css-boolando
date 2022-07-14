@@ -55,6 +55,16 @@ header {
     background-repeat: no-repeat;
 }
 
+.heart {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+    text-align: center;
+}
+
 .labels {
     justify-content: start;
     position: relative;
